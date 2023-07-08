@@ -36,6 +36,6 @@
     "@tuniao-plugin/build-utils": "workspace:^",
     "@tuniao/tn-icon": "^1.4.0",
     "@tuniao/tn-style": "^1.0.14",
-    "@tuniao/tnui-vue3-uniapp": "^1.0.3"
+    "@tuniao/tnui-vue3-uniapp": "^1.0.4"
   }
 }

@@ -2,6 +2,19 @@ import { buildProps } from '@tuniao/tnui-vue3-uniapp/utils'
 
 import type { ExtractPropTypes } from 'vue'
 
+export type SignBoardLine = {
+  x: number
+  y: number
+  r: number
+  time: number
+  distance: number
+}
+
+export type SignBoardPoint = {
+  x: number
+  y: number
+}
+
 export const signBoardProps = buildProps({
   /**
    *  @description 签名板的宽度
@@ -30,4 +43,17 @@ export const signBoardProps = buildProps({
   disabled: Boolean,
 })
 
+export const signBoardEmits = {
+  /**
+   * @description 开始触摸签名板时触发
+   */
+  'touch-start': () => true,
+  /**
+   * @description 离开签名板时触发
+   */
+  'touch-end': () => true,
+}
+
 export type SignBoardProps = ExtractPropTypes<typeof signBoardProps>
+
+export type SignBoardEmits = typeof signBoardEmits
