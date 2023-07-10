@@ -6,6 +6,12 @@
 
 该组件一般用于让用户填写签名
 
+## 组件安装
+
+```bash
+npm i tnuiv3p-tn-sign-board
+```
+
 ## 组件位置
 
 ```bash
