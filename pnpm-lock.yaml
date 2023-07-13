@@ -11,15 +11,6 @@ importers:
       '@tuniao-plugin/build-utils':
         specifier: workspace:^
         version: link:internal/build-utils
-      '@tuniao/tn-icon':
-        specifier: ^1.4.0
-        version: 1.4.0
-      '@tuniao/tn-style':
-        specifier: ^1.0.14
-        version: 1.0.14
-      '@tuniao/tnui-vue3-uniapp':
-        specifier: ^1.0.4
-        version: 1.0.4(@dcloudio/types@3.3.3)(@tuniao/tn-icon@1.4.0)(@tuniao/tn-style@1.0.14)(postcss@8.4.24)(sass@1.63.6)(typescript@5.1.6)(vite@4.0.3)(vue@3.2.47)
     devDependencies:
       '@tuniao/eslint-config':
         specifier: ^1.0.5
@@ -50,7 +41,7 @@ importers:
         version: 5.1.6
       unplugin-vue-macros:
         specifier: ^2.3.0
-        version: 2.3.0(vite@4.0.3)(vue@3.2.47)
+        version: 2.3.0(vue@3.2.47)
 
   internal/build:
     dependencies:
@@ -105,7 +96,7 @@ importers:
         version: 4.0.2
       unbuild:
         specifier: ^1.1.2
-        version: 1.1.2(sass@1.63.6)
+        version: 1.1.2
 
   internal/build-utils:
     dependencies:
@@ -121,7 +112,7 @@ importers:
     devDependencies:
       unbuild:
         specifier: ^1.1.2
-        version: 1.1.2(sass@1.63.6)
+        version: 1.1.2
       vinyl:
         specifier: ^3.0.0
         version: 3.0.0
@@ -177,11 +168,11 @@ importers:
         specifier: ^1.4.0
         version: 1.4.0
       '@tuniao/tn-style':
-        specifier: ^1.0.14
-        version: 1.0.14
+        specifier: ^1.0.17
+        version: 1.0.17
       '@tuniao/tnui-vue3-uniapp':
-        specifier: ^1.0.4
-        version: 1.0.4(@dcloudio/types@3.3.3)(@tuniao/tn-icon@1.4.0)(@tuniao/tn-style@1.0.14)(postcss@8.4.24)(sass@1.63.6)(typescript@5.1.6)(vite@4.0.3)(vue@3.2.47)
+        specifier: ^1.0.5
+        version: 1.0.5(@dcloudio/types@3.3.3)(@tuniao/tn-icon@1.4.0)(@tuniao/tn-style@1.0.17)(postcss@8.4.24)(sass@1.63.6)(typescript@5.1.6)(vite@4.0.3)(vue@3.2.47)
       vue:
         specifier: ^3.2.47
         version: 3.2.47
@@ -4640,6 +4631,20 @@ packages:
       estree-walker: 2.0.2
       picomatch: 2.3.1
 
+  /@rollup/pluginutils@5.0.2:
+    resolution: {integrity: sha512-pTd9rIsP92h+B6wWwFbW8RkZv4hiR/xKsqre4SIuAOaOEQRxi0lqLke9k2/7WegC85GgUs9pjmOjCUi3In4vwA==}
+    engines: {node: '>=14.0.0'}
+    peerDependencies:
+      rollup: ^1.20.0||^2.0.0||^3.0.0
+    peerDependenciesMeta:
+      rollup:
+        optional: true
+    dependencies:
+      '@types/estree': 1.0.1
+      estree-walker: 2.0.2
+      picomatch: 2.3.1
+    dev: true
+
   /@rollup/pluginutils@5.0.2(rollup@3.20.2):
     resolution: {integrity: sha512-pTd9rIsP92h+B6wWwFbW8RkZv4hiR/xKsqre4SIuAOaOEQRxi0lqLke9k2/7WegC85GgUs9pjmOjCUi3In4vwA==}
     engines: {node: '>=14.0.0'}
@@ -4727,12 +4732,12 @@ packages:
     resolution: {integrity: sha512-An66fWJVwzCG7XATHS5abHmS0GKZsDY3YVNIKqtDx2uYLLaNBa1IssnkpEGS5mQ1T8QnplpGjjk8Q3XKx7hdkw==}
     dev: false
 
-  /@tuniao/tn-style@1.0.14:
-    resolution: {integrity: sha512-GyD8v2CZwLp7gbbC2SMCQvhyC4DsMsFJKEOTJZJnWEHihcthBiuEKN90r/X+7o3iCbNfaTjW6IUKoW1yRrDIYA==}
+  /@tuniao/tn-style@1.0.17:
+    resolution: {integrity: sha512-17F7xbTth4yHNe58sGMYXPx/vZGwZWQejbOP+2vZKV5n0ybxOHD1kJtEdC8khUoC+S4B5PE/lORfV5sPyW2XcA==}
     dev: false
 
-  /@tuniao/tnui-vue3-uniapp@1.0.4(@dcloudio/types@3.3.3)(@tuniao/tn-icon@1.4.0)(@tuniao/tn-style@1.0.14)(postcss@8.4.24)(sass@1.63.6)(typescript@5.1.6)(vite@4.0.3)(vue@3.2.47):
-    resolution: {integrity: sha512-pJYP67GXPGSdEoj3zSgvvENa/RjYUGGEiU+VxoC1JYWvvngrOjpuWXg7ogfKekJB8OUS2+bULSgiHGEXtRTM0Q==}
+  /@tuniao/tnui-vue3-uniapp@1.0.5(@dcloudio/types@3.3.3)(@tuniao/tn-icon@1.4.0)(@tuniao/tn-style@1.0.17)(postcss@8.4.24)(sass@1.63.6)(typescript@5.1.6)(vite@4.0.3)(vue@3.2.47):
+    resolution: {integrity: sha512-LwmroEi33XpkzfDOlMocNMwwRxpNnjNMzBotAwa5C6rBsBc1k3vXwt6fbluPXfNc+SW+qfrrj523N8XlVpciEQ==}
     peerDependencies:
       '@tuniao/tn-icon': ^1.4.0
       '@tuniao/tn-style': ^1.0.14
@@ -4755,7 +4760,7 @@ packages:
       '@dcloudio/uni-mp-xhs': 3.0.0-alpha-3080720230627002(postcss@8.4.24)(vue@3.2.47)
       '@dcloudio/uni-quickapp-webview': 3.0.0-alpha-3080720230627002(postcss@8.4.24)(vue@3.2.47)
       '@tuniao/tn-icon': 1.4.0
-      '@tuniao/tn-style': 1.0.14
+      '@tuniao/tn-style': 1.0.17
       sass: 1.63.6
       typescript: 5.1.6
       vue: 3.2.47
@@ -5319,7 +5324,7 @@ packages:
         optional: true
     dependencies:
       '@babel/types': 7.22.5
-      '@rollup/pluginutils': 5.0.2(rollup@3.20.2)
+      '@rollup/pluginutils': 5.0.2
       '@vue/compiler-sfc': 3.3.4
       ast-kit: 0.6.5
       local-pkg: 0.4.3
@@ -5426,7 +5431,7 @@ packages:
       - rollup
     dev: true
 
-  /@vue-macros/devtools@0.1.2(vite@4.0.3):
+  /@vue-macros/devtools@0.1.2:
     resolution: {integrity: sha512-LhWTb0pPoTcFmK8GZb80+q83ypEK8QS1sS2i+kKbrfvjTYnb4wQ6W3ee53WHX9+sC/Tm3HNmzhjWEBQO0Ybcqg==}
     engines: {node: '>=14.19.0'}
     peerDependencies:
@@ -5436,7 +5441,6 @@ packages:
         optional: true
     dependencies:
       sirv: 2.0.3
-      vite: 4.0.3(@types/node@20.3.3)(sass@1.63.6)(terser@5.18.2)
       vue: 3.2.47
     dev: true
 
@@ -6419,7 +6423,7 @@ packages:
     engines: {node: '>=16.14.0'}
     dependencies:
       '@babel/parser': 7.22.6
-      '@rollup/pluginutils': 5.0.2(rollup@3.20.2)
+      '@rollup/pluginutils': 5.0.2
       pathe: 1.1.1
     transitivePeerDependencies:
       - rollup
@@ -11063,7 +11067,7 @@ packages:
     hasBin: true
     dev: false
 
-  /mkdist@1.2.0(sass@1.63.6)(typescript@4.9.5):
+  /mkdist@1.2.0(typescript@4.9.5):
     resolution: {integrity: sha512-UTqu/bXmIk/+VKNVgufAeMyjUcNy1dn9Bl7wL1zZlCKVrpDgj/VllmZBeh3ZCC/2HWqUrt6frNFTKt9TRZbNvQ==}
     hasBin: true
     peerDependencies:
@@ -11083,7 +11087,6 @@ packages:
       mlly: 1.4.0
       mri: 1.2.0
       pathe: 1.1.1
-      sass: 1.63.6
       typescript: 4.9.5
     dev: true
 
@@ -13720,7 +13723,7 @@ packages:
       has-symbols: 1.0.3
       which-boxed-primitive: 1.0.2
 
-  /unbuild@1.1.2(sass@1.63.6):
+  /unbuild@1.1.2:
     resolution: {integrity: sha512-EK5LeABThyn5KbX0eo5c7xKRQhnHVxKN8/e5Y+YQEf4ZobJB6OZ766756wbVqzIY/G/MvAfLbc6EwFPdSNnlpA==}
     hasBin: true
     dependencies:
@@ -13738,7 +13741,7 @@ packages:
       hookable: 5.5.3
       jiti: 1.19.1
       magic-string: 0.29.0
-      mkdist: 1.2.0(sass@1.63.6)(typescript@4.9.5)
+      mkdist: 1.2.0(typescript@4.9.5)
       mlly: 1.4.0
       mri: 1.2.0
       pathe: 1.1.1
@@ -13866,7 +13869,7 @@ packages:
     engines: {node: '>= 0.8'}
     dev: true
 
-  /unplugin-combine@0.6.0(vite@4.0.3):
+  /unplugin-combine@0.6.0:
     resolution: {integrity: sha512-cZkTg2Z3CcScyRi6QtpVxBZoCMsPaEHyKNh7HyqMkfWV7sKNwHllYezVOFINOGNzqSS1+xWLY3iDCiTVoH3oaA==}
     engines: {node: '>=14.19.0'}
     peerDependencies:
@@ -13886,7 +13889,6 @@ packages:
     dependencies:
       '@antfu/utils': 0.7.5
       unplugin: 1.3.2
-      vite: 4.0.3(@types/node@20.3.3)(sass@1.63.6)(terser@5.18.2)
     dev: true
 
   /unplugin-vue-define-options@1.3.8(vue@3.2.47):
@@ -13901,7 +13903,7 @@ packages:
       - vue
     dev: true
 
-  /unplugin-vue-macros@2.3.0(vite@4.0.3)(vue@3.2.47):
+  /unplugin-vue-macros@2.3.0(vue@3.2.47):
     resolution: {integrity: sha512-hywG2vnxjAfVXvdUVgeUw3hTSjgLxy42dw1wmCWqxh5mM+XoLIn1ebjA9pZCRKkM0l2fYImZpl1jZeFy0CzoAA==}
     engines: {node: '>=16.14.0'}
     peerDependencies:
@@ -13917,7 +13919,7 @@ packages:
       '@vue-macros/define-props-refs': 1.1.0(vue@3.2.47)
       '@vue-macros/define-render': 1.3.9(vue@3.2.47)
       '@vue-macros/define-slots': 1.0.5(vue@3.2.47)
-      '@vue-macros/devtools': 0.1.2(vite@4.0.3)
+      '@vue-macros/devtools': 0.1.2
       '@vue-macros/export-expose': 0.0.3(vue@3.2.47)
       '@vue-macros/export-props': 0.3.8(vue@3.2.47)
       '@vue-macros/hoist-static': 1.4.2(vue@3.2.47)
@@ -13928,7 +13930,7 @@ packages:
       '@vue-macros/setup-sfc': 0.15.9(vue@3.2.47)
       '@vue-macros/short-emits': 1.4.0(vue@3.2.47)
       unplugin: 1.3.2
-      unplugin-combine: 0.6.0(vite@4.0.3)
+      unplugin-combine: 0.6.0
       unplugin-vue-define-options: 1.3.8(vue@3.2.47)
       vue: 3.2.47
     transitivePeerDependencies:
